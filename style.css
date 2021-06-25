@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Bhai 2', 'Noto Sans JP';
+}
+
+.myheader {
+
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+.headerdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.travelcompanyNameHeader {
+
+    font-family: 'Noto Sans JP', 'Baloo Bhai 2';
+    font-weight: bold;
+    color: white;
+}
+
+.myheader img {
+    padding: auto;
+    margin-left: 1vw;
+    height: 4vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.navbar {
+
+    width: 70%;
+
+
+
+
+}
+
+.navbarItems {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.navbarItems li {
+    margin-left: 2vw;
+    padding: auto;
+}
+
+.navbarItems a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 840px) {
+    .navbarItems a {
+        text-decoration: none;
+        color: white;
+        font-size: .5rem;
+    }
+
+}
+
+.navbarItems a:hover {
+
+    color: red;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+
+    background-image: url('https://source.unsplash.com/1600x900/?travel,nature,water');
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tourlist {
+    align-items: centers;
+}
+
+.allpopularplaces {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.popularplaceimage {
+    height: 20vh;
+    width: 10vw;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.placediscreption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.placedetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.placediscreption p {
+    margin-left: 1vw;
+
+
+}
+.myfooter{
+    position: relative;
+    bottom: 0;
+    margin: 0px;
+}
+.footer {
+    
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
