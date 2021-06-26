@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Baloo Bhai 2', 'Noto Sans JP';
+    display: flex;
+    flex-direction: column;
 }
 
 .myheader {
@@ -22,7 +24,9 @@ body {
 .headerdiv {
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
+    
+    
 }
 
 .travelcompanyNameHeader {
@@ -30,6 +34,7 @@ body {
     font-family: 'Noto Sans JP', 'Baloo Bhai 2';
     font-weight: bold;
     color: white;
+    
 }
 
 .myheader img {
@@ -41,10 +46,15 @@ body {
     display: flex;
 
 }
+.logo{
+    margin-left: 10px;
+    align-self: baseline;
+}
 
 .navbar {
 
     width: 70%;
+    align-self: center;
 
 
 
@@ -56,6 +66,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 
 
@@ -91,12 +102,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-self: flex-end;
 }
 
 main {
 
     background-image: url('https://source.unsplash.com/1600x900/?travel,nature,water');
-    height: 100vh;
+
     width: 100vw;
     border: 2px solid white;
     border-radius: 10px;
