@@ -10,18 +10,22 @@ body {
     flex-direction: column;
 }
 
-.myheader {
-
-    height: 10vh;
+.headerdiv {
+    display: flex;
     width: 100%;
+    height: 10vh;
     background-color: black;
     position: sticky;
     border: 2px solid white;
     border-radius: 10px;
+   align-items: center;
+    margin: 0.5%;
+   
+    
 
 }
 @media screen and (max-width: 500px) {
-    .myheader {
+    .headerdiv {
 
         height: 20vh;
         width: 100%;
@@ -34,13 +38,6 @@ body {
 
 }
 
-.headerdiv {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-    
-}
 
 .travelcompanyNameHeader {
 
@@ -50,7 +47,7 @@ body {
     
 }
 
-.myheader img {
+.headerdiv img {
     padding: auto;
     margin-left: 1vw;
     height: 4vh;
@@ -60,14 +57,15 @@ body {
 
 }
 .logo{
+    width: 10%;
     margin-left: 10px;
-    align-self: baseline;
+    
 }
 
 .navbar {
 
-    width: 70%;
-    align-self: center;
+    width: 68%;
+   
 
 
 
@@ -112,10 +110,18 @@ body {
 }
 
 .searchBar {
+    width: 20%;
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: flex-end;
+    border-radius: 10px;
+    
+   
+
+
 }
 h1{
     color: black;
