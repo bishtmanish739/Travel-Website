@@ -103,8 +103,7 @@ body {
 }
 
 .searchBar {
-    width: 10%;
-    position: absolute;
+    
     right: 0;
     margin-right: 2%;
     display: flex;
@@ -188,6 +187,7 @@ main {
 .allpopularplaces {
     display: flex;
     flex-wrap: wrap;
+   justify-content:space-between;
     
     
 }
